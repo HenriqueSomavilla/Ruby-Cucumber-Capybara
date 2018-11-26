@@ -1,0 +1,131 @@
+[
+  {
+    "uri": "features/definitions/facebook.feature",
+    "id": "aprendendo-a-usar-tudo-isso_2",
+    "keyword": "Funcionalidade",
+    "name": "Aprendendo a usar tudo isso_2",
+    "description": "",
+    "line": 3,
+    "elements": [
+      {
+        "id": "aprendendo-a-usar-tudo-isso_2;exemplo-basico-de-login-e-logout",
+        "keyword": "Cenario",
+        "name": "Exemplo basico de login e logout",
+        "description": "",
+        "line": 6,
+        "type": "scenario",
+        "comments": [
+          {
+            "value": "# Algum texto descritivo do que e desejado",
+            "line": 4
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.10.1/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24098
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.10.1/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10666
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que eu acesse o facebook",
+            "line": 9,
+            "comments": [
+              {
+                "value": "#  Uma determinada situacao de negocios",
+                "line": 7
+              }
+            ],
+            "match": {
+              "location": "features/step_definitions/loginout.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7459350732
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "eu preencher os campos de login e clicar em entrar",
+            "line": 11,
+            "comments": [
+              {
+                "value": "# Ponto de partida do teste",
+                "line": 10
+              }
+            ],
+            "match": {
+              "location": "features/step_definitions/loginout.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12090328063
+            }
+          },
+          {
+            "keyword": "E ",
+            "name": "navegar ate Configuracoes da conta e clicar",
+            "line": 13,
+            "comments": [
+              {
+                "value": "# Realiza o login",
+                "line": 12
+              }
+            ],
+            "match": {
+              "location": "features/step_definitions/loginout.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5373820297
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "selecionar sair e clicar",
+            "line": 15,
+            "comments": [
+              {
+                "value": "# Passos para encontrar o botao sair",
+                "line": 14
+              }
+            ],
+            "match": {
+              "location": "features/step_definitions/loginout.rb:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11966175223
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.10.1/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 177545807
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

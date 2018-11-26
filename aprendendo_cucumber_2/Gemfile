@@ -1,0 +1,6 @@
+source "https://rubygems.org" # De onde virão os gems
+
+ gem 'capybara' # Gems que serão utilizados
+ gem 'cucumber'
+ gem 'selenium-webdriver'
+
